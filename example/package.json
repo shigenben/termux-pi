@@ -1,0 +1,14 @@
+{
+  "name": "termux-pi-native-acceptance",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free acceptance fixture for a native Termux coding agent",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=tap",
+    "test:baseline": "node --test --test-reporter=tap test/baseline.test.js"
+  }
+}
