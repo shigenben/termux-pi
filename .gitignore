@@ -1,0 +1,7 @@
+node_modules/
+private/
+config/
+.termux-pi/
+.staging.*/
+__pycache__/
+*.pyc
